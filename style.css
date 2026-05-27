@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Opcional: ajuda no controle de largura e altura */
+}
+
+/* Container Principal do Topo */
+.headContainer {
+    display: flex;
+    font-family: Arial, sans-serif;
+    height: 150px;
+    background-color: #F4B7C2;2;
+   
+}
+
+/* Bloco do Logo */
+.rightcontent {
+    display: flex; /* Adicionado para garantir o alinhamento correto da imagem */
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 80px;
+    width: 290px;
+}   
+
+.logo {
+    width: 200px;
+    display: block;
+}
+
+/* Espaçador Central */
+.containerMenu {
+    display: flex;
+    word-break: break-all;
+    justify-content: center;
+    width: 350px;
+}
+
+/* Bloco do Menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #background-color: blue;
+    width: 700px;
+    gap: 40px; /* 👈 Cria o espaçamento perfeito entre 'Inicio' e 'Sobre' */
+}
+
+/* Ajuste dos textos do Menu */
+.menu h1 {
+    margin: 0; /* Remove a margem padrão do h1 para não quebrar o alinhamento vertical */
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
+.textos:hover{
+
+    color: #C94863;
+}
+main{
+    width: 3000px;
+    background-color: red;
+    height: 700px;
+}
