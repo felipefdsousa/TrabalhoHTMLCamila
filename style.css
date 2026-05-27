@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Opcional: ajuda no controle de largura e altura */
+    box-sizing: border-box;
 }
 
 /* Container Principal do Topo */
@@ -9,13 +9,12 @@
     display: flex;
     font-family: Arial, sans-serif;
     height: 150px;
-    background-color: #F4B7C2;2;
-   
+    background-color: #F4B7C2;
 }
 
 /* Bloco do Logo */
 .rightcontent {
-    display: flex; /* Adicionado para garantir o alinhamento correto da imagem */
+    display: flex; 
     align-items: flex-start;
     justify-content: flex-start;
     height: 80px;
@@ -40,24 +39,51 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    #background-color: blue;
     width: 700px;
-    gap: 40px; /* 👈 Cria o espaçamento perfeito entre 'Inicio' e 'Sobre' */
+    gap: 40px; 
 }
 
 /* Ajuste dos textos do Menu */
 .menu h1 {
-    margin: 0; /* Remove a margem padrão do h1 para não quebrar o alinhamento vertical */
+    margin: 0; 
     font-size: 24px;
     color: black;
     cursor: pointer;
 }
-.textos:hover{
 
+.textos:hover {
     color: #C94863;
 }
-main{
-    width: 3000px;
-    background-color: red;
-    height: 700px;
+
+/* --- SEÇÃO DO BANNER (CORRIGIDA) --- */
+
+/* --- Ajuste do Bloco do Banner --- */
+.topo {
+    height: 440px; /* Mantém a altura fixa do banner */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+} 
+
+.banner {
+    width: 100%;
+    height: 100%; /* Ocupa exatamente os 440px do .topo */
+    overflow: hidden; 
+}
+
+.imgbanner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center 20%; 
+    display: block;
+}
+
+/* --- Ajuste da Tarja (Corrigido) --- */
+.tarja {
+    width: 100%;
+    background-color: blue; /* Se o fundo do site for azul, mude a cor para testar */
+    height: 96px; 
+    display: block; 
+    clear: both; /* Garante que nenhum elemento flutuante morda o espaço dela */
 }
