@@ -1,3 +1,6 @@
+body{
+    background-color: #e9e7e8;
+}
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +11,7 @@
 .headContainer {
     display: flex;
     font-family: Arial, sans-serif;
-    height: 150px;
+    height: 100px;
     background-color: #F4B7C2;
 }
 
@@ -22,7 +25,7 @@
 }   
 
 .logo {
-    width: 200px;
+    width: 160px;
     display: block;
 }
 
@@ -59,7 +62,7 @@
 
 /* --- Ajuste do Bloco do Banner --- */
 .topo {
-    height: 440px; /* Mantém a altura fixa do banner */
+    height: 330px; /* Mantém a altura fixa do banner */
     display: flex;
     justify-content: center;
     width: 100%;
@@ -82,8 +85,23 @@
 /* --- Ajuste da Tarja (Corrigido) --- */
 .tarja {
     width: 100%;
-    background-color: blue; /* Se o fundo do site for azul, mude a cor para testar */
+    background-color: #fafafa; /* Se o fundo do site for azul, mude a cor para testar */
     height: 96px; 
     display: block; 
     clear: both; /* Garante que nenhum elemento flutuante morda o espaço dela */
+     
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+  border-left: 1px solid rgba(0, 0, 0, 0.06);
+  border-right: 1px solid rgba(0, 0, 0, 0.06);
+  border-top: 4px solid rgba(0, 0, 0, 0.03);   
+}
+
+.paragrafos{
+    height: 100%;
+    gap: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;    
 }
