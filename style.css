@@ -362,3 +362,11 @@ main{
     }
 
 }
+@media(max-width: 1090px){
+
+    .links img {
+        width: 45px;
+    }
+
+
+}
