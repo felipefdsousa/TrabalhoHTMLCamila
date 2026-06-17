@@ -350,17 +350,19 @@ main{
     }
     
  .links{
-        display: flex;
-        align-items: center;
-        justify-content: flex-end; 
-        gap: 10px;
-        margin-top: 20px;
+        justify-content: center;
     }
 
-    .links img{
-        width: 32px; 
-        height: auto; 
-        display: block;
+    .links a{
+        width: 32px;
+        height: 32px;
+    }
+
+    .links a img{
+        width: 32px !important;
+        height: 32px !important;
+        max-width: 32px !important;
+        max-height: 32px !important;
     }
 
 }
