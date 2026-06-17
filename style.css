@@ -354,12 +354,12 @@ main{
     }
 
     .links a{
-        width: 32px;
+        width: 45px;
         height: 32px;
     }
 
     .links a img{
-        width: 32px !important;
+        width: 45px !important;
         height: 32px !important;
         max-width: 32px !important;
         max-height: 32px !important;
@@ -391,14 +391,14 @@ main{
 
 @media(max-width: 768px){
     .contato-info .links a{
-        width: 30px !important;
+        width: 45px !important;
         height: 30px !important;
     }
 
     .contato-info .links a img{
-        width: 30px !important;
+        width: 45px !important;
         height: 30px !important;
-        max-width: 30px !important;
+        max-width: 45px !important;
         max-height: 30px !important;
     }
 }
