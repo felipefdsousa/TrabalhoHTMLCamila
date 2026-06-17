@@ -229,7 +229,8 @@ main{
 
 }
 .pagina{
-    min-height: 600px;
+    flex: 1;
+    min-height: calc(100vh - 80px - 114px);
     padding: 50px;
 }
 
@@ -257,6 +258,17 @@ main{
 .contato-info p{
     font-size: 20px;
     margin-bottom: 18px;
+}
+
+.links{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 8px;
+}
+.links img{
+    width: 42px;
+
 }
 
 @media(max-width: 768px){
