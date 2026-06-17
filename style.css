@@ -360,6 +360,7 @@ main{
     .links img{
         width: 32px; 
         height: auto; 
+        display: block;
     }
 
 }
