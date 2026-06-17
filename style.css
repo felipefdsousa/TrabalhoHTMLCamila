@@ -348,4 +348,9 @@ main{
     .caixa p{
         font-size: 16px;
     }
+    .links img{
+        width: 45px;
+
+    }
+
 }
