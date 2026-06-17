@@ -366,3 +366,39 @@ main{
     }
 
 }
+.contato-info .links{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 12px !important;
+    margin-top: 20px !important;
+}
+
+.contato-info .links a{
+    width: 38px !important;
+    height: 38px !important;
+    display: flex !important;
+}
+
+.contato-info .links a img{
+    width: 38px !important;
+    height: 38px !important;
+    max-width: 38px !important;
+    max-height: 38px !important;
+    object-fit: contain !important;
+    display: block !important;
+}
+
+@media(max-width: 768px){
+    .contato-info .links a{
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .contato-info .links a img{
+        width: 30px !important;
+        height: 30px !important;
+        max-width: 30px !important;
+        max-height: 30px !important;
+    }
+}
