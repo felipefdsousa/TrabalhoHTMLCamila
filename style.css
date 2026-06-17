@@ -352,14 +352,14 @@ main{
  .links{
         display: flex;
         align-items: center;
-        justify-content: flex-end; /* Alinha ao final da caixa */
+        justify-content: flex-end; 
         gap: 10px;
         margin-top: 20px;
     }
 
     .links img{
-        width: 32px; /* Diminuído para 32px para ficar harmônico no celular */
-        height: auto; /* Força o navegador a recalcular a altura proporcionalmente */
+        width: 32px; 
+        height: auto; 
     }
 
 }
